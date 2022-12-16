@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 0%;
+}
+
+body {
+    background-color:rgb(255,246,234);
+}
+
+#Second_Frame_Header {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    
+    width: 100%;
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+
+    background: url(assets/02-portfolio-5.png);
+    color:rgb(104, 90, 17);
+    top: 0;
+    z-index: 999;
+    
+}
+header0 {
+    position: fixed;
+    background: url(assets/banner.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 100%;
+    
+    width: 100%;
+    height: auto;
+    display:block;       
+    -webkit-transition: .2s height linear;
+    -moz-transition: .2s height linear;
+    -o-transition: .2s height linear;
+    transition: .2s height linear;
+
+    color:rgb(104, 90, 17);
+    top: 0;
+    z-index: 999;
+    
+}
+#banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+#Main_Frame_Header {
+
+}
+#Second_Frame_Header {
+    
+    text-align: right;
+    display:flex;
+    margin: right;
+    color:rgb(104, 90, 17);
+    font-size:2.0vw;
+}
+ /* Below are the parameters for my navigation options */
+.subheader { 
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    display:flex;
+    margin: right;
+    color:rgb(104, 90, 17);
+    font-size:2.0vw;
+}
+
+/* Below are my project photos */
+.imgPhoto {
+    width: 100%;
+    height: 150px;
+    border:5px solid black;
+}
+
+
+ .text-block { 
+    width: 23.5%;
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+    color: rgb(25, 23, 25);
+    font-size: 17px;
+    font-weight:bold ;
+    padding: 4px;
+   }
+
+/* The part below helps my image grow once I hover over it (https://thebrandsmen.com/css-image-hover-effects/)*/
+#grow img {
+    transition: 1s ease;
+}
+  
+#grow img:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.05);
+    transition: 1s ease;
+ }
+
+
+#AboutSection0
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+#ReviewSection0
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}
+
+#ContactSection0
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;     
+}
+
+
+#Services_div
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      
+}
+
+/* The part below helps me to title my project images */
+.container {
+    position:relative;
+}
