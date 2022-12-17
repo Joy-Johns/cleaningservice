@@ -8,6 +8,21 @@ body {
     background-color:rgb(255,246,234);
 }
 
+.hassle{
+    position: relative;
+}
+
+.first_txt {
+    position: absolute;
+    top: 2%;
+    left: 35%;
+    font-size:7.0vw;
+    font-style: oblique;
+    font-family: cursive, sans-serif;
+    color:rgb(255, 242, 207);
+    	
+}
+
 #Second_Frame_Header {
     position: fixed;
     background-repeat: no-repeat;
