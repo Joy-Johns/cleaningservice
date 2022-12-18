@@ -14,13 +14,23 @@ body {
 
 .first_txt {
     position: absolute;
-    top: 2%;
-    left: 35%;
-    font-size:7.0vw;
+    top: 1%;
+    left: 25%;
+    font-size:5.5vw;
     font-style: oblique;
     font-family: cursive, sans-serif;
     color:rgb(255, 242, 207);
     	
+}
+
+.second_txt {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-size:1.5vw;
+    font-style: oblique;
+    font-family: cursive, sans-serif;
+    color:rgb(255, 242, 207);
 }
 
 #Second_Frame_Header {
